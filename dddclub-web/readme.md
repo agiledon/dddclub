@@ -1,0 +1,1 @@
+This is web front end for ddd club.
