@@ -1,30 +1,21 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
 .DS_Store
-node_modules/
-/dist/
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.shelf/
-
-### IntelliJ IDEA ###
+# Editor directories and files
 .idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
